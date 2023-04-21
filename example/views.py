@@ -12,5 +12,6 @@ def index(request):
             <p>The current time is { now }.{ now }</p>
         </body>
     </html>
+    
     '''
     return HttpResponse(html)
